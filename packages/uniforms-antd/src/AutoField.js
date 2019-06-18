@@ -1,6 +1,9 @@
-import BaseField from 'uniforms/BaseField';
+import React, { Children, createElement } from 'react';
 import invariant from 'invariant';
-import { createElement } from 'react';
+
+import BaseField from 'uniforms/BaseField';
+import filterDOMProps from 'uniforms/filterDOMProps';
+import nothing from 'uniforms/nothing';
 
 import NumField from './NumField';
 import BoolField from './BoolField';
@@ -10,6 +13,10 @@ import NestField from './NestField';
 import TextField from './TextField';
 import RadioField from './RadioField';
 import SelectField from './SelectField';
+
+const DisplayIf = ({ children, condition }, { uniforms }) =>
+  condition(uniforms) ? Children.only(children) : nothing;
+DisplayIf.contextTypes = BaseField.contextTypes;
 
 export default class AutoField extends BaseField {
   static displayName = 'AutoField';
@@ -58,6 +65,14 @@ export default class AutoField extends BaseField {
       }
     }
 
-    return createElement(props.component, this.props);
+    const element = createElement(props.component, this.props);
+
+    return props.condition ? (
+      <DisplayIf condition={props.condition}>{element}</DisplayIf>
+    ) : (
+      element
+    );
   }
 }
+
+filterDOMProps.register('condition');
