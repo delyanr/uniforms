@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[37],{58:function(e){e.exports={id:"examples",title:"Examples",description:"## Bridges",source:"/home/travis/build/vazco/uniforms/docs/examples.md",permalink:"/docs/examples",sidebar:"docs",category:"Getting Started",next:"bridges-concept",previous:"overview",previous_title:"Overview",next_title:"Concept"}}}]);

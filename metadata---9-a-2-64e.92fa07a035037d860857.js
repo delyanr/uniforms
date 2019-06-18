@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[27],{35:function(e){e.exports={permalink:"/",source:"/home/travis/build/vazco/uniforms/website/pages/index.js"}}}]);

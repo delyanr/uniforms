@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[28],{40:function(e){e.exports={id:"api-bridges",title:"Bridges",description:"## `Bridge`",source:"/home/travis/build/vazco/uniforms/docs/api-bridges.md",permalink:"/docs/api-bridges",sidebar:"docs",category:"API Reference",next:"api-fields",previous:"uncategorized-forms",previous_title:"Forms",next_title:"Fields"}}}]);

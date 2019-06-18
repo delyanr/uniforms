@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[29],{42:function(i){i.exports={id:"api-fields",title:"Fields",description:"## `AutoField`",source:"/home/travis/build/vazco/uniforms/docs/api-fields.md",permalink:"/docs/api-fields",sidebar:"docs",category:"API Reference",next:"api-forms",previous:"api-bridges",previous_title:"Bridges",next_title:"Forms"}}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[38],{60:function(t){t.exports={id:"installation",title:"Installation",description:"Core package first.",source:"/home/travis/build/vazco/uniforms/docs/installation.md",permalink:"/docs/installation",sidebar:"docs",category:"Getting Started",next:"quick-start",next_title:"Quick start"}}}]);
